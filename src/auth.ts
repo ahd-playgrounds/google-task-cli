@@ -15,6 +15,7 @@ const SCOPES = [
   "https://www.googleapis.com/auth/tasks.readonly",
   "https://www.googleapis.com/auth/photoslibrary.appendonly",
   "https://www.googleapis.com/auth/photoslibrary.edit.appcreateddata",
+  "https://www.googleapis.com/auth/photoslibrary.readonly.appcreateddata",
 ];
 const REDIRECT_PORT = 3000;
 const REDIRECT_URI = `http://localhost:${REDIRECT_PORT}`;
