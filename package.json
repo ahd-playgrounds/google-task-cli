@@ -2,11 +2,12 @@
   "name": "googleapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/server.ts",
+  "type": "module",
   "scripts": {
-    "start": "node --experimental-strip-types ./google_tasks_script.ts",
-    "server": "node --experimental-strip-types ./server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --experimental-strip-types ./src/server.ts",
+    "photos": "node --experimental-strip-types ./src/photo-upload.ts",
+    "view": "node --experimental-strip-types ./src/photo-view.ts"
   },
   "keywords": [],
   "author": "",
